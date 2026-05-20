@@ -1,0 +1,47 @@
+Golang常用：
+
+# 编译产物
+/bin/
+/dist/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+
+# 测试覆盖率文件
+*.test
+*.out
+coverage.html
+coverage.out
+
+# 依赖管理（如果使用 vendor）
+/vendor/
+config.yaml
+
+# 日志文件
+*.log
+
+# IDE 配置（不同 IDE 习惯不同）
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+
+# 环境配置文件（可能包含敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 如果使用 Go 工作区
+go.work
+go.work.sum
+
+# 临时文件
+tmp/
+temp/
